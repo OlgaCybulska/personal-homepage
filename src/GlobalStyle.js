@@ -4,7 +4,7 @@ export const GlobalStyle = createGlobalStyle`
 html {
   box-sizing: border-box;
   font-family: 'Courier Prime', monospace;
-font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
 
  ;
 }
