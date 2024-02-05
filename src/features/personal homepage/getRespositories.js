@@ -1,7 +1,7 @@
+import { getRepoFromApi } from "./personalData";
+
 export const getRepositoriesFromApi = async () => {
-  const response = await fetch(
-    "https://api.github.com/users/OlgaCybulska/repos"
-  );
+  const response = await fetch(getRepoFromApi);
 
   if (!response.ok) {
     new Error(response.statusText);
