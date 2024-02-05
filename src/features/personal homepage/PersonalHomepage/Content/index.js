@@ -1,4 +1,6 @@
 import Loading from "./Loading";
+import Error from "./Error";
+import Repositories from "./Repositories";
 
 export const Content = ({ status, repositories }) => {
   switch (status) {
@@ -9,12 +11,9 @@ export const Content = ({ status, repositories }) => {
       return <Loading />;
 
     case "success":
-      return <div>jest ok</div>;
+      return <Repositories repositories={repositories} />;
 
     case "error":
-      return <div>jest ok</div>;
-
-    default:
-      throw new Error(`incorrect status: ${status}`);
+      return <Error />;
   }
 };
