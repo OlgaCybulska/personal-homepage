@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as LoadingIcon } from "./loading.svg";
+import { ReactComponent as LoadingIcon } from "../../../../../images/loading.svg";
 
 export const StyledLoadingIcon = styled(LoadingIcon)`
   width: 160px;
