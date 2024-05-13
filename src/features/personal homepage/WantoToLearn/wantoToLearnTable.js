@@ -1,6 +1,10 @@
 export const wantToLearn = [
-  "Semantic & accessible HTML",
-  "Responsive Web Design",
-  "Teamwork",
+  "Phyton",
+  "React Context",
+  "Node.js",
+  "Cypress",
   "Markdown",
+  "Unit testing",
+  "TypeScript",
+  "JS classes",
 ];
