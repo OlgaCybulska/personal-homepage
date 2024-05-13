@@ -1,9 +1,12 @@
-import { StyledList, ListItem } from "./styled";
+import { StyledList, ListItem, Dotlist } from "./styled";
 
 const List = ({ skills }) => (
   <StyledList>
     {skills.map((skill) => (
-      <ListItem key={skill}>{skill}</ListItem>
+      <ListItem key={skill}>
+        <Dotlist />
+        {skill}
+      </ListItem>
     ))}
   </StyledList>
 );
