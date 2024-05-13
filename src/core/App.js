@@ -7,6 +7,7 @@ import { useSelector } from "react-redux";
 import Skillset from "../features/personal homepage/Skillset";
 import WantToLearn from "../features/personal homepage/WantoToLearn";
 import { GlobalStyle } from "../GlobalStyle";
+import { Footer } from "../Footer";
 
 function App() {
   const theme = useSelector(selectIsDarkTheme);
@@ -18,6 +19,7 @@ function App() {
       <Skillset />
       <WantToLearn />
       <PersonalHomepage />
+      <Footer />
     </ThemeProvider>
   );
 }
