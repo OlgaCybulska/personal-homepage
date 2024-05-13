@@ -9,7 +9,7 @@ export const ThemeSwitch = () => {
   return (
     <Wrapper>
       <Button onClick={() => dispatch(toggleTheme())}>
-        <Text>Dark mode {isDarkTheme ? "on" : "off"}</Text>
+        <Text> Dark mode {isDarkTheme ? "on" : "off"}</Text>
         <IconBox $movetoright={isDarkTheme}>
           <Icon />
         </IconBox>
