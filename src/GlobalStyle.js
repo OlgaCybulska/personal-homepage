@@ -13,6 +13,9 @@ html {
 }
 #root {
   width: 100%;
+  max-width: 1089px;
+  margin-left: 353px;
+  margin-top: 119px;
  
 }
 
