@@ -18,4 +18,4 @@ export const SectionHeader = styled.h2`
   color: ${({ theme }) => theme.header};
 `;
 
-export const List = styled.ul``;
+export const Content = styled.div``;
