@@ -1,9 +1,9 @@
-import { StyledSection, SectionHeader, List } from "./styled";
+import { StyledSection, SectionHeader, Content } from "./styled";
 
-const Section = ({ title, list }) => (
+const Section = ({ title, content }) => (
   <StyledSection>
     <SectionHeader>{title}</SectionHeader>
-    <List>{list}</List>
+    <Content>{content}</Content>
   </StyledSection>
 );
 
