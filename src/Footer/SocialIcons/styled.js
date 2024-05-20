@@ -5,6 +5,8 @@ export const List = styled.ul`
   gap: 24px;
   width: 264px;
   height: 48px;
+  align-items: flex-start;
+  padding: 0;
 `;
 
 export const ListItem = styled.li`
@@ -14,6 +16,5 @@ export const ListItem = styled.li`
 export const StyledIcon = (Icon) => styled(Icon)`
   height: 48px;
   width: 48px;
-  fill: ${({ theme }) => theme.icons};
-  transition: 0.3s;
+  fill: ${({ theme }) => theme.colors.icons};
 `;
