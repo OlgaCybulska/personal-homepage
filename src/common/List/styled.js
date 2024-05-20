@@ -19,6 +19,10 @@ export const StyledList = styled.ul`
 
 export const ListItem = styled.li`
   list-style-type: none;
+  color: ${({ theme }) => theme.colors.listItem};
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25.2px;
 `;
 
 export const Dotlist = styled(Dot)`
