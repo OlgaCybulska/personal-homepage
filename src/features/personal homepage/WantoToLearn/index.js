@@ -6,7 +6,7 @@ function WantToLearn() {
   return (
     <Section
       title="What I want to learn next 🚀"
-      list={<List skills={wantToLearn} />}
+      content={<List skills={wantToLearn} />}
     />
   );
 }
