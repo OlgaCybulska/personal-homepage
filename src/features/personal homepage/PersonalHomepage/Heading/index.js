@@ -1,11 +1,11 @@
-import { Wrapper, StyledGithubIcon } from "./styled";
+import { Wrapper, Header, Description, StyledGithubIcon } from "./styled";
 
 function Heading() {
   return (
     <Wrapper>
       <StyledGithubIcon />
-      <h2>Portfolio</h2>
-      <p>My recent projects</p>
+      <Header>Portfolio</Header>
+      <Description>My recent projects</Description>
     </Wrapper>
   );
 }
