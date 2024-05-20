@@ -1,4 +1,4 @@
-import { List, ListItem, StyledIcon } from "./styled";
+import { List, ListItem } from "./styled";
 import { socials } from "./socials";
 
 export const Socials = () => (
