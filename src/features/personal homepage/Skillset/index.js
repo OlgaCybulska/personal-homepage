@@ -6,7 +6,7 @@ function Skillset() {
   return (
     <Section
       title="My skillset includes 🛠️"
-      list={<List skills={skillSetTable} />}
+      content={<List skills={skillSetTable} />}
     />
   );
 }
