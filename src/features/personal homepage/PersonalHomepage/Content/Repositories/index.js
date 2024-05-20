@@ -2,11 +2,11 @@ import { List, Item, Name, Description, Links, LinkItem, Link } from "./styled";
 
 export const Repositories = ({ repositories }) => (
   <List>
-    {repositories.map(({ id, name, description, homepage, html_url }) => (
+    {repositories?.map(({ id, name, description, homepage, html_url }) => (
       <Item key={id}>
         <Name>{name}</Name>
         <Description>{description}</Description>
-        <Links>
+        <dl>
           {!!homepage && (
             <LinkItem>
               <dt>Demo:</dt>
@@ -21,7 +21,7 @@ export const Repositories = ({ repositories }) => (
               {html_url}
             </Link>
           </LinkItem>
-        </Links>
+        </dl>
       </Item>
     ))}
   </List>
