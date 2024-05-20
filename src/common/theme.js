@@ -30,7 +30,7 @@ export const themeDark = {
     switchButtonBorder: colors.white,
     buttonText: colors.white,
     buttonBorder: colors.white,
-    buttonBackground: colors.mainBlue,
+    buttonBackground: colors.darkBlue,
     mail: colors.white,
     mailHover: colors.darkBlue,
     icons: colors.white,
