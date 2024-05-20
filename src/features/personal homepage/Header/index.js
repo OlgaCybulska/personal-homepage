@@ -21,7 +21,7 @@ export const Header = () => {
         <ThisIs>THIS IS</ThisIs>
         <Name>Olga Cybulska</Name>
         <AboutMe>
-          👩🏻💻I'm a passionate Frontend Developer in love with React. Currently
+          👩🏻💻 I'm a passionate Frontend Developer in love with React. Currently
           looking for new job opportunities.
         </AboutMe>
         <Button as="a" href={`mailto:${email}`}>
