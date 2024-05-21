@@ -17,4 +17,9 @@ export const StyledIcon = (Icon) => styled(Icon)`
   height: 48px;
   width: 48px;
   fill: ${({ theme }) => theme.colors.icons};
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    width: 32px;
+    height: 32px;
+  }
 `;
