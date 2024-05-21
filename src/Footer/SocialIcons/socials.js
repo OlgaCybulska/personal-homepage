@@ -2,7 +2,6 @@ import { StyledIcon } from "./styled";
 import { ReactComponent as GitHubIcon } from "../../images/github.svg";
 import { ReactComponent as FacebookIcon } from "../../images/facebook.svg";
 import { ReactComponent as LinkedinIcon } from "../../images/linedin.svg";
-import { ReactComponent as InstaIcon } from "../../images/instagram.svg";
 
 export const socials = [
   {
@@ -17,12 +16,7 @@ export const socials = [
   },
   {
     name: "Linkedin",
-    url: "https://github.com/OlgaCybulska",
+    url: "https://www.linkedin.com/in/olga-cybulska-69821b30b/",
     Icon: StyledIcon(LinkedinIcon),
-  },
-  {
-    name: "Instagram",
-    url: "https://github.com/OlgaCybulska",
-    Icon: StyledIcon(InstaIcon),
   },
 ];
