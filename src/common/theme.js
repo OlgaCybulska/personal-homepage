@@ -4,6 +4,7 @@ const colors = {
   black: "#252525",
   iron: "#E5E5E5",
   mainBlue: "#0366D6",
+  mainBlue50: "#0366D680",
   dolphinGray: "#D1D5DA4D",
   dolphinGray20: "#0366D633",
   semiGrey: "#D1D5DA1A",
@@ -14,6 +15,7 @@ const colors = {
   darkGray: "rgba(54, 54, 54, 0.72)",
   lightGray3: "#090A3308",
   lightGray2: "#090A3305",
+  lightBlue: "#8CC2FF",
 };
 
 const breakpoints = {
@@ -31,6 +33,7 @@ export const themeDark = {
     buttonText: colors.white,
     buttonBorder: colors.white,
     buttonBackground: colors.darkBlue,
+    buttonShadow: colors.lightBlue,
     mail: colors.white,
     mailHover: colors.darkBlue,
     icons: colors.white,
@@ -39,9 +42,9 @@ export const themeDark = {
     text: colors.white,
     header: colors.white,
     border: colors.semiGrey,
-
+    borderHover: colors.mainBlue50,
     projectName: colors.white,
-    link: colors.darkBlue,
+    link: colors.mainBlue,
     linkHover: colors.darkBlue,
     letstalk: colors.grey,
     aboutMe: colors.white,
@@ -51,6 +54,7 @@ export const themeDark = {
     boxShadow: colors.lightGray3,
     boxShadow2: colors.lightGray2,
     projectName: colors.white,
+    errorText: colors.white,
   },
 
   breakpoint: {
@@ -69,6 +73,7 @@ export const themeLight = {
     switchButtonBorder: colors.darkGray,
     buttonText: colors.white,
     buttonBackground: colors.mainBlue,
+    buttonShadow: colors.lightBlue,
     mail: colors.black,
     mailHover: colors.mainBlue,
     icons: colors.black,
@@ -89,6 +94,7 @@ export const themeLight = {
     boxShadow: colors.lightGray3,
     boxShadow2: colors.lightGray2,
     projectName: colors.mainBlue,
+    errorText: colors.black,
   },
 
   breakpoint: {
