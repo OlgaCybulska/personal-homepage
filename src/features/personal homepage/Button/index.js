@@ -13,4 +13,8 @@ export default styled.button`
   justify-content: center;
   gap: 16px;
   color: ${({ theme }) => theme.colors.buttonText};
+
+  &:hover {
+    box-shadow: -2px -2px 0px 0px ${({ theme }) => theme.colors.buttonShadow};
+  }
 `;
