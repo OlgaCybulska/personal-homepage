@@ -1,14 +1,22 @@
-import { Wrapper, StyledErrorLogo } from "./styled";
+import { Wrapper, StyledErrorLogo, ErrorHeader, ErrorText } from "./styled";
+import Button from "../../../Button";
+import { socials } from "../../../../../Footer/SocialIcons/socials";
 
 function Error() {
   return (
     <Wrapper>
       <StyledErrorLogo />
-      <h3>Ooops! Something went wrong...</h3>
-      <p>
-        Sorry, failed to load Github projects. You can check them directly on
-        Github.
-      </p>
+      <ErrorHeader>Ooops! Something went wrong...</ErrorHeader>
+      <ErrorText>
+        Sorry, failed to load Github&nbsp;projects.
+        <br />
+        You can check them directly&nbsp;on&nbsp;Github.
+      </ErrorText>
+
+      <Button as="a" href={socials[0].url} target="_blank" rel="noreferrer">
+        {" "}
+        Go to Github
+      </Button>
     </Wrapper>
   );
 }
