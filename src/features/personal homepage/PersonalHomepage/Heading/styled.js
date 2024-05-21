@@ -18,7 +18,7 @@ export const Header = styled.h2`
 `;
 
 export const Description = styled.p`
-  color: ${({ theme }) => theme.colors.text};
+  color: ${({ theme }) => theme.colors.header};
   letter-spacing: 0.05em;
   line-height: 28px;
   font-size: 20px;
