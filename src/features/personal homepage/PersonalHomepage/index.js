@@ -8,7 +8,7 @@ import {
 import { Content } from "./Content";
 import Heading from "./Heading";
 
-const PersonalHomepage = () => {
+const Repositories = () => {
   const dispatch = useDispatch();
   const status = useSelector(selectStatus);
   const repositories = useSelector(selectRepositories);
@@ -24,4 +24,4 @@ const PersonalHomepage = () => {
     </>
   );
 };
-export default PersonalHomepage;
+export default Repositories;
