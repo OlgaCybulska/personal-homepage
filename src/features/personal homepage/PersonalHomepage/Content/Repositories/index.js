@@ -1,27 +1,38 @@
-import { List, Item, Name, Description, Links, LinkItem, Link } from "./styled";
+import {
+  List,
+  Item,
+  Name,
+  Description,
+  Links,
+  LinkItem,
+  LinkTitle,
+  Link,
+} from "./styled";
+
+import Error from "../Error";
 
 export const Repositories = ({ repositories }) => (
   <List>
-    {repositories?.map(({ id, name, description, homepage, html_url }) => (
+    {repositories.map(({ id, name, description, homepage, html_url }) => (
       <Item key={id}>
         <Name>{name}</Name>
         <Description>{description}</Description>
-        <dl>
+        <Links>
           {!!homepage && (
             <LinkItem>
-              <dt>Demo:</dt>
-              <Link target="_blank" rel="noreferrer" href={homepage}>
+              <LinkTitle>Demo:</LinkTitle>
+              <Link as="a" target="_blank" rel="noreferrer" href={homepage}>
                 {homepage}
               </Link>
             </LinkItem>
           )}
           <LinkItem>
-            <dt>Code:</dt>
-            <Link target="_blank" rel="noreferrer" href={html_url}>
+            <LinkTitle>Code:</LinkTitle>
+            <Link as="a" target="_blank" rel="noreferrer" href={html_url}>
               {html_url}
             </Link>
           </LinkItem>
-        </dl>
+        </Links>
       </Item>
     ))}
   </List>
