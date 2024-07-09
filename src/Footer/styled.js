@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.footer`
   margin-bottom: 110px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
