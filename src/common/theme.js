@@ -37,6 +37,7 @@ export const themeDark = {
     mail: colors.white,
     mailHover: colors.darkBlue,
     icons: colors.white,
+    iconsHover: colors.darkBlue,
     listDot: colors.mainBlue,
     underline: colors.semiGrey,
     text: colors.white,
@@ -55,6 +56,7 @@ export const themeDark = {
     boxShadow2: colors.lightGray2,
     projectName: colors.white,
     errorText: colors.white,
+    spinner: colors.darkBlue,
   },
 
   breakpoint: {
@@ -77,6 +79,7 @@ export const themeLight = {
     mail: colors.black,
     mailHover: colors.mainBlue,
     icons: colors.black,
+    iconsHover: colors.mainBlue,
     listDot: colors.mainBlue,
     underline: colors.dolphinGray,
     text: colors.grey,
@@ -85,7 +88,6 @@ export const themeLight = {
     borderHover: colors.dolphinGray20,
     projectName: colors.mainBlue,
     link: colors.mainBlue,
-    linkHover: colors.darkBlue,
     letstalk: colors.grey,
     aboutMe: colors.black,
     sun: colors.white,
@@ -95,6 +97,7 @@ export const themeLight = {
     boxShadow2: colors.lightGray2,
     projectName: colors.mainBlue,
     errorText: colors.black,
+    spinner: colors.mainBlue,
   },
 
   breakpoint: {
