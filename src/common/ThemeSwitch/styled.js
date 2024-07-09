@@ -12,10 +12,12 @@ export const Wrapper = styled.div`
 
 export const Button = styled.button`
   border: none;
-  background-color: ${({ theme }) => theme.colors.bodyBackground};
+  background: none;
   display: flex;
   align-items: center;
   cursor: pointer;
+  color: inherit;
+  outline-offset: 8px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     margin-right: 17px;
@@ -45,6 +47,7 @@ export const IconBox = styled.div`
   align-items: center;
   justify-content: center;
   padding: 2px;
+  transition: transform 0.3s;
 
   ${({ movetoright }) =>
     movetoright &&

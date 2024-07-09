@@ -8,11 +8,14 @@ export const Section = styled.section`
   align-self: center;
   margin-bottom: 73px;
 
+  @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    grid-gap: 32px;
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     display: flex;
     flex-direction: column;
-    grid-gap: 32px;
-    margin: 16px;
+    gap: 24px;
   }
 `;
 
@@ -42,6 +45,7 @@ export const Name = styled.h1`
   font-weight: 900;
   size: 38px;
   line-height: 46px;
+  margin: 12px 0 0 0;
   color: ${({ theme }) => theme.colors.sectionTitle};
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {

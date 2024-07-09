@@ -20,12 +20,10 @@ export const Header = styled.h2`
 export const Description = styled.p`
   color: ${({ theme }) => theme.colors.header};
   letter-spacing: 0.05em;
-  line-height: 28px;
   font-size: 20px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     font-size: 17px;
-    line-height: 23.8px;
   }
 `;
 
