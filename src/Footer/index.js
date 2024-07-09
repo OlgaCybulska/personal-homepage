@@ -1,6 +1,6 @@
 import { Wrapper, LetsTalk, Email, AboutMe } from "./styled";
 import { Socials } from "./SocialIcons";
-import { email } from "../features/personal homepage/personalData";
+import { email } from "../email";
 
 export const Footer = () => {
   return (
