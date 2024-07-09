@@ -7,16 +7,24 @@ export const List = styled.ul`
   height: 48px;
   align-items: flex-start;
   padding: 0;
-`;
-
-export const ListItem = styled.li`
   list-style-type: none;
+  margin-top: 56px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    margin-top: 40px;
+    gap: 16px;
+  }
 `;
 
 export const StyledIcon = (Icon) => styled(Icon)`
   height: 48px;
   width: 48px;
-  fill: ${({ theme }) => theme.colors.icons};
+  color: ${({ theme }) => theme.colors.icons};
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.iconsHover};
+    transition: 0.3s;
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     width: 32px;
