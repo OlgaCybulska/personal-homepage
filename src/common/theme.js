@@ -57,6 +57,7 @@ export const themeDark = {
     projectName: colors.white,
     errorText: colors.white,
     spinner: colors.darkBlue,
+    githubeIcon: colors.darkBlue,
   },
 
   breakpoint: {
@@ -98,6 +99,7 @@ export const themeLight = {
     projectName: colors.mainBlue,
     errorText: colors.black,
     spinner: colors.mainBlue,
+    githubeIcon: colors.mainBlue,
   },
 
   breakpoint: {

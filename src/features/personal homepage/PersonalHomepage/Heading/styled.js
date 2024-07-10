@@ -30,7 +30,7 @@ export const Description = styled.p`
 export const StyledGithubIcon = styled(GithubIcon)`
   width: 40px;
   height: 40px;
-  fill: ${({ theme }) => theme.colors.icons};
+  color: ${({ theme }) => theme.colors.githubeIcon};
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     width: 32px;
