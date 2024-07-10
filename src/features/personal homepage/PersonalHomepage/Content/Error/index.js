@@ -1,5 +1,5 @@
 import { Wrapper, StyledErrorLogo, ErrorHeader, ErrorText } from "./styled";
-import Button from "../../../Button";
+import Button from "../../../../../common/Button";
 import { socials } from "../../../../../Footer/SocialIcons/socials";
 
 function Error() {

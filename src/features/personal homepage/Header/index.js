@@ -9,7 +9,7 @@ import {
   EmailIcon,
 } from "./styled";
 import { ThemeSwitch } from "../../../common/ThemeSwitch";
-import Button from "../Button";
+import Button from "../../../common/Button";
 import { email } from "../../../email";
 
 export const Header = () => {
