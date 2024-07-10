@@ -49,8 +49,8 @@ export const IconBox = styled.div`
   padding: 2px;
   transition: transform 0.3s;
 
-  ${({ movetoright }) =>
-    movetoright &&
+  ${({ $movetoright }) =>
+    $movetoright &&
     css`
       transform: translateX(20px);
     `}
