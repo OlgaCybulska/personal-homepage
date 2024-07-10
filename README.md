@@ -3,6 +3,8 @@
 ## Description
 Here you will find all my projects and information about my skills and what I plan to learn.
 
+You can set dark mode - it will be saved
+
 ## Check out Demo [**here**](https://olgacybulska.github.io/personal-homepage/) 
 
 ## Technologies
