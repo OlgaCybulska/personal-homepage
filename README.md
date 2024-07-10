@@ -1,7 +1,7 @@
 # Personal Homepage
 
 ## Description
- This is my virtual CV. Here you will find all my projects and information about my skills and what I plan to learn.
+Here you will find all my projects and information about my skills and what I plan to learn.
 
 ## Check out Demo [**here**](https://olgacybulska.github.io/personal-homepage/) 
 
