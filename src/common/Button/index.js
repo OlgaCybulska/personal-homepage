@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export default styled.button`
   text-decoration: none;
-  background-color: ${({ theme }) => theme.colors.buttonBackground};
+  background-color: ${({ theme }) => theme.colors.button.background};
   width: fit-content;
   border: 1px;
   padding: 12px 16px;
@@ -12,11 +12,11 @@ export default styled.button`
   display: flex;
   justify-content: center;
   gap: 16px;
-  color: ${({ theme }) => theme.colors.buttonText};
+  color: ${({ theme }) => theme.colors.button.text};
   transition: box-shadow 0.3s;
 
   &:hover {
-    box-shadow: -2px -2px 0px 0px ${({ theme }) => theme.colors.buttonShadow};
+    box-shadow: -2px -2px 0px 0px ${({ theme }) => theme.colors.button.shadow};
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {

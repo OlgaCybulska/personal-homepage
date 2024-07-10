@@ -47,14 +47,14 @@ export const Email = styled.a`
   font-weight: 900;
   font-size: 32px;
   line-height: 38.73px;
-  color: ${({ theme }) => theme.colors.mail};
+  color: ${({ theme }) => theme.colors.mail.color};
   text-decoration: none;
   margin-bottom: 24px;
   transition: 0.3s;
   letter-spacing: 0.05em;
 
   &:hover {
-    color: ${({ theme }) => theme.colors.mailHover};
+    color: ${({ theme }) => theme.colors.mail.hover};
     transition: 0.3s;
   }
 

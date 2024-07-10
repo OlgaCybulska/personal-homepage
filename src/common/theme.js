@@ -25,19 +25,18 @@ const breakpoints = {
 
 export const themeDark = {
   colors: {
-    bodyBackground: colors.black,
-    sectionBackground: colors.semiDark72,
+    body: { background: colors.black },
+    section: { background: colors.semiDark72 },
+
     sectionTitle: colors.white,
-    switchButtonBackground: colors.darkGray,
-    switchButtonBorder: colors.white,
-    buttonText: colors.white,
-    buttonBorder: colors.white,
-    buttonBackground: colors.darkBlue,
-    buttonShadow: colors.lightBlue,
-    mail: colors.white,
-    mailHover: colors.darkBlue,
-    icons: colors.white,
-    iconsHover: colors.darkBlue,
+    switchButton: { background: colors.darkGray, border: colors.white },
+    button: {
+      text: colors.white,
+      background: colors.white,
+      shadow: colors.lightBlue,
+    },
+    mail: { color: colors.white, hover: colors.darkBlue },
+    icons: { color: colors.white, hover: colors.darkBlue },
     listDot: colors.mainBlue,
     underline: colors.semiGrey,
     text: colors.white,
@@ -69,18 +68,18 @@ export const themeDark = {
 
 export const themeLight = {
   colors: {
-    bodyBackground: colors.whiteLilac,
-    sectionBackground: colors.white,
+    body: { background: colors.whiteLilac },
+    section: { background: colors.white },
     sectionTitle: colors.black,
-    switchButtonBackground: colors.iron,
-    switchButtonBorder: colors.darkGray,
-    buttonText: colors.white,
-    buttonBackground: colors.mainBlue,
-    buttonShadow: colors.lightBlue,
-    mail: colors.black,
-    mailHover: colors.mainBlue,
-    icons: colors.black,
-    iconsHover: colors.mainBlue,
+    switchButton: { background: colors.iron, border: colors.darkGray },
+    button: {
+      text: colors.white,
+      background: colors.mainBlue,
+      shadow: colors.lightBlue,
+    },
+    mail: { color: colors.black, hover: colors.darkmainBlueBlue },
+    icons: { color: colors.black, hover: colors.mainBlue },
+
     listDot: colors.mainBlue,
     underline: colors.dolphinGray,
     text: colors.grey,

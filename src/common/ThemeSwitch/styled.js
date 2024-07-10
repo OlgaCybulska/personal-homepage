@@ -34,7 +34,7 @@ export const Box = styled.div`
   transition: 0.3s;
   cursor: pointer;
   align-items: center;
-  border: 1px solid ${({ theme }) => theme.colors.switchButtonBorder};
+  border: 1px solid ${({ theme }) => theme.colors.switchButton.border};
   background-color: ${({ theme }) => theme.colors.switchButtonBackground};
 `;
 
@@ -49,8 +49,8 @@ export const IconBox = styled.div`
   padding: 2px;
   transition: transform 0.3s;
 
-  ${({ $movetoright }) =>
-    $movetoright &&
+  ${({ movetoright }) =>
+    movetoright &&
     css`
       transform: translateX(20px);
     `}

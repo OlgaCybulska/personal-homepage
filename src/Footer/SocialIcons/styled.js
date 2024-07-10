@@ -19,10 +19,10 @@ export const List = styled.ul`
 export const StyledIcon = (Icon) => styled(Icon)`
   height: 48px;
   width: 48px;
-  color: ${({ theme }) => theme.colors.icons};
+  color: ${({ theme }) => theme.colors.icons.color};
 
   &:hover {
-    color: ${({ theme }) => theme.colors.iconsHover};
+    color: ${({ theme }) => theme.colors.icons.hover};
     transition: 0.3s;
   }
 

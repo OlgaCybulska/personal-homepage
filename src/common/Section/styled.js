@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledSection = styled.section`
-  background-color: ${({ theme }) => theme.colors.sectionBackground};
+  background-color: ${({ theme }) => theme.colors.section.background};
   margin-bottom: 72px;
   padding: 32px;
   border-radius: 4px;

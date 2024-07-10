@@ -14,7 +14,7 @@ html {
 body {
   width: 100%;
   max-width: 1216px;
-  background-color: ${({ theme }) => theme.colors.bodyBackground};
+  background-color: ${({ theme }) => theme.colors.body.background};
   transition: background  0.3s;
   font-family: 'Inter', sans-serif;
   word-break: break-word;
