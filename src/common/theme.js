@@ -27,12 +27,10 @@ export const themeDark = {
   colors: {
     body: { background: colors.black },
     section: { background: colors.semiDark72 },
-
-    sectionTitle: colors.white,
     switchButton: { background: colors.darkGray, border: colors.white },
     button: {
       text: colors.white,
-      background: colors.white,
+      background: colors.darkBlue,
       shadow: colors.lightBlue,
     },
     mail: { color: colors.white, hover: colors.darkBlue },
@@ -41,11 +39,9 @@ export const themeDark = {
     underline: colors.semiGrey,
     text: colors.white,
     header: colors.white,
-    border: colors.semiGrey,
-    borderHover: colors.mainBlue50,
+    border: { color: colors.semiGrey, hover: colors.mainBlue50 },
     projectName: colors.white,
-    link: colors.mainBlue,
-    linkHover: colors.darkBlue,
+    links: { color: colors.mainBlue, hover: colors.darkBlue },
     letstalk: colors.grey,
     aboutMe: colors.white,
     sun: colors.black,
@@ -70,7 +66,6 @@ export const themeLight = {
   colors: {
     body: { background: colors.whiteLilac },
     section: { background: colors.white },
-    sectionTitle: colors.black,
     switchButton: { background: colors.iron, border: colors.darkGray },
     button: {
       text: colors.white,
@@ -84,10 +79,9 @@ export const themeLight = {
     underline: colors.dolphinGray,
     text: colors.grey,
     header: colors.black,
-    border: colors.dolphinGray,
-    borderHover: colors.dolphinGray20,
+    border: { color: colors.dolphinGray, hover: colors.dolphinGray20 },
     projectName: colors.mainBlue,
-    link: colors.mainBlue,
+    links: { color: colors.mainBlue, hover: colors.darkBlue },
     letstalk: colors.grey,
     aboutMe: colors.black,
     sun: colors.white,

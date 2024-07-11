@@ -17,8 +17,8 @@ export const List = styled.ul`
 `;
 
 export const Item = styled.li`
-  background-color: ${({ theme }) => theme.colors.sectionBackground};
-  border: 6px solid ${({ theme }) => theme.colors.border};
+  background-color: ${({ theme }) => theme.colors.section.background};
+  border: 6px solid ${({ theme }) => theme.colors.border.color};
   border-radius: 4px;
   padding: 56px;
   margin: 0;
@@ -27,7 +27,7 @@ export const Item = styled.li`
     0px -2px 50px 0px ${({ theme }) => theme.colors.boxShadow2};
 
   &:hover {
-    border: 6px solid ${({ theme }) => theme.colors.borderHover};
+    border: 6px solid ${({ theme }) => theme.colors.border.hover};
   }
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     padding: 20px;
@@ -78,10 +78,10 @@ export const LinkTitle = styled.dt`
 `;
 
 export const Link = styled.dd`
-  color: ${({ theme }) => theme.colors.link};
+  color: ${({ theme }) => theme.colors.links.color};
   opacity: 0.2px;
   font-size: 18px;
-  border-bottom: 1px solid ${(({ theme }) => theme.colors.border, 0.3)};
+  border-bottom: 1px solid ${({ theme }) => theme.colors.border.color};
   padding-bottom: 1px;
   text-decoration: none;
 
