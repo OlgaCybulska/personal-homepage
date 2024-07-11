@@ -11,8 +11,8 @@ export const List = styled.ul`
   transition: 0.3s;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
-    grid-template-columns: 1 fr;
     grid-gap: 24px;
+    grid-template-columns: repeat(1, auto);
   }
 `;
 
