@@ -47,14 +47,14 @@ export const Name = styled.h3`
 
 export const Description = styled.p`
   margin: 24px 0;
-  line-height: 25, 2px;
+  line-height: 25.2px;
   color: ${({ theme }) => theme.colors.text};
   letter-spacing: 0.05em;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     margin: 16px 0;
     font-size: 14px;
-    line-height: 16.94px;
+    line-height: 16px;
   }
 `;
 
@@ -79,7 +79,7 @@ export const LinkTitle = styled.dt`
 
 export const Link = styled.dd`
   color: ${({ theme }) => theme.colors.links.color};
-  opacity: 0.2px;
+  opacity: 0.2;
   font-size: 18px;
   border-bottom: 1px solid ${({ theme }) => theme.colors.border.color};
   padding-bottom: 1px;

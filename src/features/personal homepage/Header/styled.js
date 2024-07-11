@@ -37,19 +37,19 @@ export const Wrapper = styled.div`
 export const ThisIs = styled.p`
   color: ${({ theme }) => theme.colors.text};
   font-weight: 700;
-  size: 12px;
+  font-size: 12px;
   line-height: 15.6px;
 `;
 
 export const Name = styled.h1`
   font-weight: 900;
-  size: 38px;
+  font-size: 38px;
   line-height: 46px;
   margin: 12px 0 0 0;
   color: ${({ theme }) => theme.colors.header};
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
-    size: 22px;
+    font-size: 22px;
     line-height: 27px;
   }
 `;
@@ -57,7 +57,7 @@ export const Name = styled.h1`
 export const AboutMe = styled.div`
   max-width: 633px;
   line-height: 28px;
-  size: 20px;
+  font-size: 20px;
   color: ${({ theme }) => theme.colors.text};
   margin: 35px 0 35px 0;
 
@@ -67,6 +67,6 @@ export const AboutMe = styled.div`
 `;
 
 export const EmailIcon = styled(Emailicon)`
-  width: 24 px;
+  width: 24px;
   height: 24px;
 `;
