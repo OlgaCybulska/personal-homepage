@@ -9,6 +9,9 @@ export const StyledList = styled.ul`
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     grid-template-columns: repeat(1, auto);
+    font-size: 14px;
+    padding-top: 12px;
+    padding-left: 10px;
   }
   @media (min-width: ${({ theme }) =>
       theme.breakpoint.mobile}) and (max-width: ${({ theme }) =>
