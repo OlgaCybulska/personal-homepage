@@ -46,7 +46,7 @@ export const Name = styled.h1`
   size: 38px;
   line-height: 46px;
   margin: 12px 0 0 0;
-  color: ${({ theme }) => theme.colors.sectionTitle};
+  color: ${({ theme }) => theme.colors.header};
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     size: 22px;
