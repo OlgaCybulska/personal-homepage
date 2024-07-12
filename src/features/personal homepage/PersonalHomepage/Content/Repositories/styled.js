@@ -58,7 +58,7 @@ export const Description = styled.p`
   }
 `;
 
-export const Links = styled.dl`
+export const Links = styled.div`
   display: grid;
   grid-gap: 8px;
   margin-top: 24px;
@@ -69,15 +69,18 @@ export const Links = styled.dl`
   }
 `;
 
-export const LinkItem = styled.div`
+export const LinkItem = styled.dl`
   display: grid;
   grid-template-columns: 4em 1fr;
 `;
 export const LinkTitle = styled.dt`
   color: ${({ theme }) => theme.colors.text};
 `;
+export const LinkValue = styled.dd`
+  margin: 0;
+`;
 
-export const Link = styled.dd`
+export const Link = styled.a`
   color: ${({ theme }) => theme.colors.links.color};
   opacity: 0.2;
   font-size: 18px;

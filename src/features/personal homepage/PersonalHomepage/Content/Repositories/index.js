@@ -7,6 +7,7 @@ import {
   LinkItem,
   LinkTitle,
   Link,
+  LinkValue,
 } from "./styled";
 
 import Error from "../Error";
@@ -21,16 +22,20 @@ export const Repositories = ({ repositories }) => (
           {!!homepage && (
             <LinkItem>
               <LinkTitle>Demo:</LinkTitle>
-              <Link as="a" target="_blank" rel="noreferrer" href={homepage}>
-                {homepage}
-              </Link>
+              <LinkValue>
+                <Link target="_blank" rel="noreferrer" href={homepage}>
+                  {homepage}
+                </Link>
+              </LinkValue>
             </LinkItem>
           )}
           <LinkItem>
             <LinkTitle>Code:</LinkTitle>
-            <Link as="a" target="_blank" rel="noreferrer" href={html_url}>
-              {html_url}
-            </Link>
+            <LinkValue>
+              <Link target="_blank" rel="noreferrer" href={html_url}>
+                {html_url}
+              </Link>
+            </LinkValue>
           </LinkItem>
         </Links>
       </Item>
