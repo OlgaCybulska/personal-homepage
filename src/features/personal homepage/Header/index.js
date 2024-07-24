@@ -1,4 +1,4 @@
-import photo from "../../../images/zdjęcie.png";
+import photo from "../../../images/olga_cybulska.jpeg";
 import {
   Section,
   Wrapper,
@@ -21,7 +21,8 @@ export const Header = () => {
         <ThisIs>THIS IS</ThisIs>
         <Name>Olga Cybulska</Name>
         <AboutMe>
-          👩🏻💻 I'm a passionate Frontend Developer in love with React, currently
+          👩🏻💻 I'm a passionate Frontend Developer in love with React. In the
+          future, I would like to work as a Full-Stack Developer. Currently I'm
           looking for new job opportunities.
         </AboutMe>
         <Button as="a" href={`mailto:${email}`} title={email}>
