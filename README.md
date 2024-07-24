@@ -4,10 +4,10 @@
 Here you will find all my projects and information about my skills and what I plan to learn.
 
 
-[![Image from Gyazo](https://i.gyazo.com/f37738e026f555855568c3f0051e81bd.gif)](https://gyazo.com/f37738e026f555855568c3f0051e81bd)
+
 
 ## Overview
-[![Image from Gyazo](https://i.gyazo.com/27996696c9bbc49ed6eb565f39c1508d.gif)](https://gyazo.com/27996696c9bbc49ed6eb565f39c1508d)
+[![Image from Gyazo](https://i.gyazo.com/f37738e026f555855568c3f0051e81bd.gif)](https://gyazo.com/f37738e026f555855568c3f0051e81bd)
 ## Technologies
 ![React](https://camo.githubusercontent.com/31b08faa61951179c95f91d42f8ce1b56012e80fa6e269d23221031d1b13fd0d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163742d3631444146422e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d5265616374266c6f676f436f6c6f723d626c61636b)
 
