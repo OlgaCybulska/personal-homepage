@@ -82,7 +82,6 @@ export const LinkValue = styled.dd`
 
 export const Link = styled.a`
   color: ${({ theme }) => theme.colors.links.color};
-  opacity: 0.2;
   font-size: 18px;
   border-bottom: 1px solid ${({ theme }) => theme.colors.border.color};
   padding-bottom: 1px;
